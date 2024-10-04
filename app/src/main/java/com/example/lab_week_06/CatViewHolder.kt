@@ -2,6 +2,7 @@ package com.example.lab_week_06
 
 
 import android.view.View
+import android.view.View.OnClickListener
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
@@ -14,7 +15,7 @@ private val FEMALE_SYMBOL = "\u2640"
 private val MALE_SYMBOL = "\u2642"
 private const val UNKNOWN_SYMBOL = "?"
 
-class CatViewHolder (containerView: View, private val imageLoader: ImageLoader) : RecyclerView.ViewHolder(containerView) {
+class CatViewHolder (private val containerView: View, private val imageLoader: ImageLoader, private val onClickListener: OnClickListener) : RecyclerView.ViewHolder(containerView) {
     private val catBiographyView: TextView by lazy {
         containerView.findViewById(R.id.cat_biography)
     }
