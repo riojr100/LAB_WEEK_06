@@ -74,16 +74,16 @@ class MainActivity : AppCompatActivity() {
                 CatModel(
                     Gender.Male,
                     CatBreed.ExoticShorthair,
-                    "Wilma",
+                    "the Cat",
                     "Cuddly assassin",
-                "https://cdn2.thecatapi.com/images/d74.jpg"
+                "https://cdn2.thecatapi.com/images/MjA5MDgyOQ.jpg"
                  ),
 
                 CatModel(
                     Gender.Female,
                     CatBreed.ExoticShorthair,
-                    "Wilma",
-                    "Cuddly assassin",
+                    "joseph",
+                    "Kucing misterius",
                     "https://cdn2.thecatapi.com/images/8np.jpg"
                 ),
                 CatModel(
@@ -103,9 +103,9 @@ class MainActivity : AppCompatActivity() {
                 CatModel(
                     Gender.Male,
                     CatBreed.ExoticShorthair,
-                    "Wilma",
+                    "Kucing Sigma",
                     "Cuddly assassin",
-                    "https://cdn2.thecatapi.com/images/d74.jpg"
+                    "https://cdn2.thecatapi.com/images/e64.jpg"
 
                 ),
                 CatModel(
